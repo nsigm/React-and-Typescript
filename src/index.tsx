@@ -1,9 +1,8 @@
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bulmaswatch/superhero/bulmaswatch.min.css';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { store } from './store';
-import CodeCell from './components/code-cell';
-import TextEditor from './components/text-editor';
 import CellList from './components/cell-list';
 
 const App = () => {
